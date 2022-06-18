@@ -1,2 +1,9 @@
+# Ignore everything
+*
 
-*.gba
+# But not these files...
+!.git*
+!LICENSE
+!*.md
+!*.s
+!*.S
