@@ -7,3 +7,7 @@
 !*.md
 !*.s
 !*.S
+!*.mid
+!*.MID
+!*.midi
+!*.MIDI
