@@ -1,2 +1,19 @@
+# Ignore everything
+*
 
-*.gba
+# But not these files...
+!.git*
+!.github/
+!.github/workflows/
+!.github/workflows/*.yml
+!LICENSE
+!*.md
+!*.s
+!*.S
+!*.mid
+!*.MID
+!*.midi
+!*.MIDI
+!sync-config.json
+!tools/
+!tools/*.py
