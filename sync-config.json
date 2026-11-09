@@ -1,0 +1,39 @@
+{
+  "upstream": {
+    "url": "https://github.com/Klokinator/FE-Repo-Music.git",
+    "branch": "main"
+  },
+  "target": {
+    "branch": "main"
+  },
+  "overlay": {
+    "paths": [
+      ".gitignore",
+      ".gitmodules",
+      "README.md",
+      "sync-config.json",
+      ".github/workflows",
+      "tools"
+    ],
+    "submodule_paths": [
+      "[AA] Direct Play .S Files {7743}"
+    ]
+  },
+  "filters": {
+    "remove_extensions": [
+      ".ogg",
+      ".mp3",
+      ".wav",
+      ".flac",
+      ".m4a",
+      ".aac",
+      ".mp4",
+      ".avi",
+      ".webm"
+    ],
+    "remove_directories": [],
+    "remove_paths": [],
+    "remove_globs": [],
+    "remove_regexes": []
+  }
+}
